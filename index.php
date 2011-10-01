@@ -3,7 +3,7 @@
 require_once ( "../atsumi/init.php");
 /* load the necessary packages in Atsumi & project */
 atsumi_Loader::references(array(
-	'atsumi' 	=> 'helpers mvc database',
+	'atsumi' 	=> 'utility mvc database',
 	'bootstrap'	=> 'app mvc'
 ));
 /* initialise the project settings */
