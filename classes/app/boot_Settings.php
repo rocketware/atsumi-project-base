@@ -3,7 +3,8 @@ class boot_Settings extends atsumi_AbstractAppSettings {
 	/* we can setup base settings here, can be useful for version numbers etc */
 	protected $settings = 	array (
 					'siteName'	=> 'My Atsumi powered website!',
-					'debug'		=> true
+					'debug'		=> true,
+					'cli'		=> false
 				);
 	/* 	At times you may want to utilise the construct, this could be to 
 	 * 	analyse what domain a user is on and you could give them an 
