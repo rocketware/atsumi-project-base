@@ -4,7 +4,7 @@ require_once ( "../atsumi/init.php");
 /* load the necessary packages in Atsumi & project */
 atsumi_Loader::references(array(
 	'atsumi' 	=> 'utility mvc database',
-	'bootstrap'	=> 'app mvc'
+	'projectFolder'	=> 'app mvc'
 ));
 /* initialise the project settings */
 $settings = new boot_Settings();
